@@ -1,0 +1,35 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: fit-content;
+  height: fit-content;
+  padding: 50px;
+  background-color: lightcyan;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+
+#txtbox, #resultado, button {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#txtbox {
+  height: 100px;
+  width: 300px;
+}
+
+#resultado {
+  background-color: lightcyan;
+  border-style: hidden;
+  text-align: center;
+}
+
+
