@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Calculadora - IMC</h1>
+      <div class="divisor"></div>
+      <form class="" method="post">
+        <table>
+          <tr>
+            <td>Nome:</td>
+            <td>
+              <input name="nome" id="txtboxnome" value="" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Peso:</td>
+            <td>
+              <input name="peso" id="txtboxpeso" value="" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Altura:</td>
+            <td>
+              <input name="altura" id="txtboxaltura" value="" />
+            </td>
+          </tr>
+        </table>
+        <div>
+          <input type="button" id="calcular" value="Calcular" onclick="imc()" />
+        </div>
+
+        <div>
+          <p>Resultado:</p>
+          <input type="text" id="resultado" value readonly />
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
