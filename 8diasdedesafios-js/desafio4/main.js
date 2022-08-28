@@ -20,8 +20,6 @@ function imc() {
     situacao = 'Por favor, tente digitar valores válidos.'
   }
 
-  console.log(peso)
-  console.log(altura)
   document
     .getElementById('resultado')
     .setAttribute('value', `${imc} - ${situacao}`)
